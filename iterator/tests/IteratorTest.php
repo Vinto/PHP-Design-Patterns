@@ -63,7 +63,7 @@ class IteratorTest extends TestCase {
 
 	public function testCanAddBooksToBookList()
 	{
-		$book1 = new Book('Sore', 'TD Jakes');
+		$book1 = new Book('Soar', 'TD Jakes');
 		$book2 = new Book('Everyday Potential', 'Myles Munroe');
 
 		$bookList = new BookList;
