@@ -1,6 +1,8 @@
 <?php
 declare(strict_types = 1);
 
+namespace Purplenex\Vinsent\tests;
+
 use PHPUnit\Framework\TestCase;
 use Purplenex\Vinsent\BookList;
 use Purplenex\Vinsent\Book;
