@@ -36,7 +36,7 @@ class CarServiceTest extends TestCase {
 	public function testCanCreateBasicInpsectionAndOilChangeAndWheelRotationCost()
 	{
 		$basicInspectionAndOilChangeAndWheelRotation = new WheelRotation(new OilChange(new BasicInspection));
-		$this->assertSame(20, $basicInspectionAndOilChangeAndWheelRotation->getCost());
+		$this->assertSame(50, $basicInspectionAndOilChangeAndWheelRotation->getCost());
 	}
 
 	public function testCanCreateBasicInpsectionAndOilChangeAndWheelRotationDescription()
